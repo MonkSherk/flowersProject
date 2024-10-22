@@ -5,7 +5,7 @@ from typing_extensions import Optional
 class SGUser(BaseModel):
     name: str
     email: EmailStr
-    profile_picture: str | None
+  
 
 
 class SCUser(SGUser):
